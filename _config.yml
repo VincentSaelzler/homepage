@@ -60,6 +60,8 @@ author:
   avatar   : "/assets/images/vince.jpg"
   bio      : "Some Guy with a Website"
   location : "London, UK"
+  github: VincentSaelzler
+  linkedin: VincentSaelzler
 
 date_format: "%-d %B, %Y"
 
