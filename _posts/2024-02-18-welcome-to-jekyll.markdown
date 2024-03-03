@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Welcome to Jekyll!"
+title:  "So easy"
 date:   2024-02-18 16:26:46 +0000
 categories: jekyll update
 ---
