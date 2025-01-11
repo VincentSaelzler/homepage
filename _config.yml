@@ -1,12 +1,14 @@
 title: "Vince's Website"
 subtitle: Welcome to the World Wide Web
-description: The blog and web home page of Vincent Saelzler.
+description: The blog and web home of Vincent Saelzler.
 locale: en
 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://vincent.saelzler.com"
 
 plugins:
   - jekyll-feed
+
+include: ["_pages"]
 
 exclude: # items are added to the internal "default list".
   - LICENSE.txt
@@ -16,6 +18,21 @@ theme: minimal-mistakes-jekyll
 date_format: "%-d %B, %Y"
 atom_feed:
   hide: true
+
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
+
 
 author:
   name     : "Vincent Saelzler"
