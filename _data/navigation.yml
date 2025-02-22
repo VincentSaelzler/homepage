@@ -1,0 +1,7 @@
+main:
+  - title: Professional Profile
+    url: /resume
+  - title: Quotes
+    url: /quotes
+  - title: Blog
+    url: /blog

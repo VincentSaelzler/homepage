@@ -1,43 +1,45 @@
-title: "Vince's Website"
-subtitle: Welcome to the World Wide Web
+title: Vincent Saelzler
+logo: "/assets/images/yin-yang.png"
+subtitle: Some guy with a website.
 description: The blog and web home of Vincent Saelzler.
 locale: en
-
 url: "https://vincent.saelzler.com"
 
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
-
-include: ["_pages"]
 
 exclude: # items are added to the internal "default list".
   - LICENSE.txt
   - README.md
 
-theme: minimal-mistakes-jekyll
-date_format: "%-d %B, %Y"
-atom_feed:
-  hide: true
-
+date_format: "%Y-%m-%d"
 
 collections:
-  pages:
+  quotes:
     output: true
-    permalink: /:path/
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
+      # no filter, i.e. all paths
       path: ""
-      type: pages
     values:
       layout: single
+      # classes: wide
 
 
 
-author:
-  name     : "Vincent Saelzler"
-  avatar   : "/assets/images/vince.jpg"
-  bio      : "Some Guy with a Website"
-  location : "London, UK"
-  github: VincentSaelzler
-  linkedin: VincentSaelzler
+# author:
+#   name     : "Vincent Saelzler"
+#   avatar   : "/assets/images/vince.jpg"
+#   bio      : "Some Guy with a Website"
+#   location : "London, UK"
+#   github: VincentSaelzler
+#   linkedin: VincentSaelzler
+
+# running bundle exec jekyll serve
+# there were lots of deprication warnings
+# which make it hard to see real problems
+sass:
+  quiet_deps: true
