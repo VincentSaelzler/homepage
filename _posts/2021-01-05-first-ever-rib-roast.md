@@ -1,6 +1,7 @@
 ---
 title: First Ever Rib Roast
-categories: First-Ever
+categories:
+    - 'First Times'
 ---
 I’ve never baked a beef rib roast before! Here’s the story of what happened.
 
