@@ -7,7 +7,7 @@ This was the first time I've snowboarded over a rainbow rail.
 
 ![](/assets/wp-content/uploads/2020/07/Rainbow-Rail.jpg)
 
-It was also the first solo snowboarding trip I've taken. My wife Bethany was in Ireland, so I headed up to Beech Mountain Resort for the weekend.
+It was also the first solo snowboarding trip I've taken. I headed up to Beech Mountain Resort for the weekend.
 
 It was peaceful and relaxing to have just me and the mountain for a few days.
 

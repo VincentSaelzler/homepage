@@ -1,9 +1,8 @@
 ---
 title: Chick-Double
 categories: Food
-
-# image: /assets/images/quotes-heraclitus.jpg
 ---
+
 Are you looking for a tastier, lower-carb alternative to the standard McDonald’s menu?
 
 Make a Chick-Double! Here’s how...
